@@ -28,14 +28,14 @@
         : new Date().toJSON().substring(0, 4)}
       {site.author.name}
       <br />
-      Powered by
+      Vrei sa iti testezi cunostiintele?
       <a
         rel="noopener noreferrer external"
         target="_blank"
         class="tooltip tooltip-secondary hover:text-secondary"
-        data-tip="🌸 [δ] - Based on MDsveX & SvelteKit 🌸"
-        href="https://github.com/importantimport/urara">
-        Urara
+        data-tip="💻 Success la probleme ! 💻"
+        href="https://www.pbinfo.ro/probleme/categorii/81/recursivitate">
+        Intra pe PBINFO
       </a>
       {#if footerConfig.html}
         <br />

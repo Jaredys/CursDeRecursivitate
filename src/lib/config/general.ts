@@ -3,43 +3,43 @@ import type { ThemeConfig, HeadConfig, HeaderConfig, FooterConfig, DateConfig, F
 export const theme: ThemeConfig = [
   {
     name: 'cmyk',
-    text: '🖨 Light'
+    text: '🖨 Luminos'
   },
   {
     name: 'dracula',
-    text: '🧛 Dark'
+    text: '🧛 Dracula'
   },
   {
     name: 'valentine',
-    text: '🌸 Valentine'
+    text: '🌸 Trandafiri'
   },
   {
     name: 'aqua',
-    text: '💦 Aqua'
+    text: '💦 Ocean'
   },
   {
     name: 'synthwave',
-    text: '🌃 Synthwave'
+    text: '🌃 Violet'
   },
   {
     name: 'night',
-    text: '🌃 Night'
+    text: '🌃 Intunecat'
   },
   {
     name: 'lofi',
-    text: '🎶 Lo-Fi'
+    text: '🎶 Petrecere'
   },
   {
     name: 'lemonade',
-    text: '🍋 Lemonade'
+    text: '🍋 Limonada'
   },
   {
     name: 'cupcake',
-    text: '🧁 Cupcake'
+    text: '🧁 Prajitura'
   },
   {
     name: 'garden',
-    text: '🏡 Garden'
+    text: '🏡 Gradina'
   },
   {
     name: 'retro',
@@ -47,7 +47,7 @@ export const theme: ThemeConfig = [
   },
   {
     name: 'black',
-    text: '🖤 Black'
+    text: '🖤 Intunecat v2'
   }
 ]
 
@@ -56,12 +56,12 @@ export const head: HeadConfig = {}
 export const header: HeaderConfig = {
   nav: [
     {
-      text: 'Get Started',
-      link: '/hello-world'
+      text: 'Incepe Cursul',
+      link: '/Introducere'
     },
     {
-      text: 'Elements',
-      link: '/hello-world/elements'
+      text: 'Despre Site',
+      link: '/Despre'
     }
   ]
 }
