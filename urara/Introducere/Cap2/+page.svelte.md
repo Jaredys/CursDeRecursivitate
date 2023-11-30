@@ -1,5 +1,5 @@
 ---
-title: '3. Recursivitatea in informatica - Fibonacci'
+title: 'Recursivitatea in informatica - Fibonacci'
 image: '/Introducere/Cap2/fibonacci.jpg'
 alt: 'Recursivitate'
 created: 2023-12-02
@@ -42,7 +42,9 @@ cu valorile inițiale F<sub>1</sub>=1, F<sub>2</sub>=1 sau F<sub>0</sub>=0 și F
 
 ## Cum determinăm primii N termeni din șirul lui Fibonacci?
 
-Vom folosi trei variabile simple a b c. Două dintre ele vor reprezenta termenii anteriori Fn-1 și Fn-2, iar a treia va reprezenta termenul curent Fn:
+Vom folosi trei variabile simple `a b c`. Două dintre ele vor reprezenta termenii anteriori F<sub>n-1</sub> și F<sub>n-2</sub>, iar a treia va reprezenta termenul curent F<sub>n</sub>:
+
+### Pseudo-cod
 
 ```cpp
 a ← 1
@@ -56,3 +58,38 @@ pentru i ← 3,n execută
 sfarsit_pentru
 
 ```
+
+### Program C++
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int n, a=1, b=1, c;
+    cin >> n;
+    if(n==1)
+        cout << "1";
+    else{
+        cout << "1 1 ";
+        for(int i=3;i<=n;++i){
+            c = a+b;
+            cout << c << " ";
+            a = b;
+            b = c;
+        }
+    }
+    return 0;
+}
+```
+
+---
+
+## Vrei sa exersezi? Am pregatit cateva probleme pentru tine..
+
+[Click pentru a accessa probleme](/Introducere/Cap2/prezentare-probleme/)
+
+---
+
+[Urmatorul: Divide et Impera](/Introducere/Cap3/)
