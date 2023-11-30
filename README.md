@@ -11,3 +11,6 @@ Pentru a porni website-ul dupa ce ati instalat tot:
 ```bash
 pnpm dev
 ```
+
+## Website-ul meu:
+https://www.recursivitate.xyz/
