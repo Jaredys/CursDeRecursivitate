@@ -1,7 +1,15 @@
 ---
-title: Elements
-created: 2021-12-12
-tags: ['Urara', 'Elements']
+title: Formatare Website
+image: '/Introducere/Cap3/pisica.png'
+alt: 'pisica'
+created: 2023-10-30
+tags: ['Website']
+---
+
+---
+
+## Aici sunt elementele pe care le folosesc la formatare, ai ajuns aici din greseala.
+
 ---
 
 ## Headings
