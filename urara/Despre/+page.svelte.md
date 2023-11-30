@@ -2,7 +2,7 @@
 title: Despre acest Website
 image: '/Despre/sigla.svg'
 alt: 'Recursivitate'
-created: 2023-11-30
+created: 2023-12-05
 tags: ['Despre', 'Website']
 ---
 
