@@ -2,8 +2,8 @@
 title: '3. Recursivitatea in informatica - Fibonacci'
 image: '/Introducere/Cap2/fibonacci.jpg'
 alt: 'Recursivitate'
-created: 2023-12-03
-updated: 2023-12-03
+created: 2023-12-02
+updated: 2023-12-02
 tags:
   - 'Introducere'
   - 'Incepatori'

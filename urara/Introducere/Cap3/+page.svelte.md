@@ -2,7 +2,7 @@
 title: Formatare Website
 image: '/Introducere/Cap3/pisica.png'
 alt: 'pisica'
-created: 2023-10-30
+created: 2023-12-03
 tags: ['Website']
 ---
 
