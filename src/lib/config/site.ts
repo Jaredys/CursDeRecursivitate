@@ -11,7 +11,7 @@ export const site: SiteConfig = {
     avatar: '/assets/maskable@512.png',
     name: 'Lates Codrin',
     status: '🐈',
-    bio: 'nu'
+    bio: 'Elev @ Colegiul Naţional de Informatică Piatra-Neamţ'
   },
   themeColor: '#3D4451'
 }

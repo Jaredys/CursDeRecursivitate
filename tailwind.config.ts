@@ -5,7 +5,7 @@ import daisyui from 'daisyui'
 import { theme } from './src/lib/config/general'
 
 export default {
-  content: ['./src/**/*.{html,md,js,svelte,ts}'],
+  content: ['./src/**/*.{html,md,js,svelte,ts}', './node_modules/svhighlight/**/*.svelte'],
   theme: {
     extend: {
       typography: {

@@ -83,5 +83,9 @@
     "overrides": {
       "vite>rollup": "^3.10.0"
     }
+  },
+  "dependencies": {
+    "highlight.js": "^11.9.0",
+    "svhighlight": "^0.7.1"
   }
 }

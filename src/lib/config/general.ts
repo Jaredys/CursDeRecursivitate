@@ -67,6 +67,7 @@ export const header: HeaderConfig = {
 }
 
 export const footer: FooterConfig = {
+  /*
   nav: [
     {
       text: 'Feed',
@@ -76,7 +77,7 @@ export const footer: FooterConfig = {
       text: 'Sitemap',
       link: '/sitemap.xml'
     }
-  ]
+  ]*/
 }
 
 export const date: DateConfig = {

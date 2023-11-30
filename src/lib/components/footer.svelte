@@ -23,10 +23,7 @@
         {/each}
         <br />
       {/if}
-      Copyright © {footerConfig.since && footerConfig.since !== new Date().toJSON().substring(0, 4)
-        ? `${footerConfig.since} - ${new Date().toJSON().substring(0, 4)}`
-        : new Date().toJSON().substring(0, 4)}
-      {site.author.name}
+      Realizat de {site.author.name}
       <br />
       Vrei sa iti testezi cunostiintele?
       <a

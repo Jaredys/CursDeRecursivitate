@@ -1,6 +1,6 @@
 ---
 title: 'Ce o fi recursivitatea? 🤔'
-image: '/Introducere/recursion-meme.jpg'
+image: '/Introducere/Cap2/recursion-meme.jpg'
 alt: 'Recursivitate'
 created: 2023-11-30
 updated: 2023-11-30
@@ -65,3 +65,5 @@ termenul general are formula:
 b<sub>n</sub> = b<sub>1</sub> \* q<sup>(n-1)</sup>
 
 ## Dar cum vom reprezenta asta in informatica? 🤔
+
+[Urmatorul: Recursivitatea in Informatica](/Introducere/Cap1/)

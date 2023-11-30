@@ -1,5 +1,5 @@
 ---
-title: Despre Website
+title: Recursivitatea in informatica
 image: '/Despre/sigla.svg'
 alt: 'Recursivitate'
 created: 2023-11-30
