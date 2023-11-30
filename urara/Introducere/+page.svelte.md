@@ -1,6 +1,6 @@
 ---
 title: 'Ce o fi recursivitatea? 🤔'
-image: '/Introducere/Cap2/recursion-meme.jpg'
+image: '/Introducere/recursion-meme.jpg'
 alt: 'Recursivitate'
 created: 2023-11-30
 updated: 2023-11-30
