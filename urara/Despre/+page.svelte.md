@@ -2,7 +2,7 @@
 title: Despre Website
 image: '/Despre/sigla.svg'
 alt: 'Recursivitate'
-created: 2021-12-12
+created: 2023-11-30
 tags: ['Despre', 'Website']
 ---
 
