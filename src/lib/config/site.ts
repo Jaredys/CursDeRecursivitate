@@ -6,7 +6,7 @@ export const site: SiteConfig = {
   title: 'Recursivitate++',
   subtitle: 'Un curs de website pentru toti!',
   lang: 'en-US',
-  description: 'Powered by SvelteKit/Urara',
+  description: 'Realizat cu SvelteKit',
   author: {
     avatar: '/assets/maskable@512.png',
     name: 'Lates Codrin',
