@@ -1,9 +1,9 @@
 ---
-title: 'Ce o fi recursivitatea? 🤔'
+title: '1. Ce o fi recursivitatea? 🤔'
 image: '/Introducere/recursion-meme.jpg'
 alt: 'Recursivitate'
-created: 2023-11-30
-updated: 2023-11-30
+created: 2023-12-01
+updated: 2023-12-01
 tags:
   - 'Introducere'
   - 'Incepatori'
