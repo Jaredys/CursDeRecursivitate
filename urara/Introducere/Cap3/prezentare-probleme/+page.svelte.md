@@ -1,9 +1,9 @@
 ---
-title: '3.1 Divide et Impera - Probleme'
+title: '4.1 Divide et Impera - Probleme'
 image: '/Introducere/Cap3/divide.jpg'
 alt: 'Recursivitate'
-created: 2023-12-03
-updated: 2023-12-03
+created: 2023-12-01
+updated: 2023-12-01
 tags:
   - 'Introducere'
   - 'Incepatori'
