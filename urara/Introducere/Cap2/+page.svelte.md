@@ -1,5 +1,5 @@
 ---
-title: 'Recursivitatea in informatica - Fibonacci'
+title: '3. Recursivitatea in informatica - Fibonacci'
 image: '/Introducere/Cap2/fibonacci.jpg'
 alt: 'Recursivitate'
 created: 2023-12-02

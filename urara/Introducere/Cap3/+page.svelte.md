@@ -1,5 +1,5 @@
 ---
-title: 'Divide et Impera'
+title: '4. Divide et Impera'
 image: '/Introducere/Cap3/divide.jpg'
 alt: 'Recursivitate'
 created: 2023-12-03
@@ -77,3 +77,7 @@ Algoritm DivImp(P)
     SfârșitDacă
 SfârșitAlgoritm
 ```
+
+---
+
+[Click pentru a accessa probleme](/Introducere/Cap3/prezentare-probleme/)

@@ -1,5 +1,5 @@
 ---
-title: 'Fibonacci - Probleme Rezolvate'
+title: '3.1 Fibonacci - Probleme Rezolvate'
 image: '/Introducere/Cap2/fibonacci.jpg'
 alt: 'Recursivitate'
 created: 2023-12-02
@@ -75,39 +75,46 @@ Funcționează astfel:
 
 În final, în funcția `main()`, această funcție este apelată pentru fiecare număr din vectorul `v[]`, iar rezultatul este afișat pe ecran, indicând dacă numărul respectiv este sau nu un număr Fibonacci.
 
+---
+
+### Mai jos ai solutia acestei probleme! ⬇
+
+   <details>
+     <summary>👀 Afiseaza solutia</summary>
+
 ```cpp {2-15}
-#include <iostream>
-using namespace std;
+ #include <iostream>
+ using namespace std;
 
-bool fibonacci(long int x)
-{
-    long int nr1=1, nr2=1, aux;
-    while(nr1<=x)
-    {
-        aux = nr1;
-        nr1 = nr2;
-        nr2 += aux;
-        if(nr1==x)
-            return true;
-    }
-    return false;
-}
+ bool fibonacci(long int x)
+ {
+ long int nr1=1, nr2=1, aux;
+ while(nr1<=x)
+ {
+     aux = nr1;
+     nr1 = nr2;
+     nr2 += aux;
+     if(nr1==x)
+         return true;
+ }
+ return false;
+ }
 
-int main()
-{
-    long int n, nr, v[10];
-    cin>>n;
-    for(int i=0; i<n; i++)
-        cin>>v[i];
-    for(int i=0; i<n; i++)
-        if(fibonacci(v[i])==true)
-            cout<<"DA"<<endl;
-        else
-            cout<<"NU"<<endl;
-}
-
-
+ int main()
+ {
+ long int n, nr, v[10];
+ cin>>n;
+ for(int i=0; i<n; i++)
+     cin>>v[i];
+ for(int i=0; i<n; i++)
+     if(fibonacci(v[i])==true)
+         cout<<"DA"<<endl;
+     else
+         cout<<"NU"<<endl;
+ }
 ```
+
+   </details>
 
 ---
 
@@ -145,7 +152,7 @@ Acest cod este un program C++ care calculează și afișează numerele din șiru
 
 ### Explicație pas cu pas a codului:
 
-1. Se include biblioteca `<bits/stdc++.h>` care include toate celelalte biblioteci standard din C++.
+1. Se include biblioteca `<iostream>`.
 2. Se utilizează spațiul de nume `std` pentru a accesa elementele bibliotecilor standard.
 3. Se definește funcția `fib(int n)` care primește un număr `n` și returnează ultimul număr Fibonacci care este mai mic sau egal cu `n`.
    - Variabilele `f1`, `f2`, și `f3` stochează valorile pentru calculul numerelor din șirul Fibonacci.
@@ -163,33 +170,40 @@ Acest cod este un program C++ care calculează și afișează numerele din șiru
 
 Acest program efectuează calculul numerelor din șirul Fibonacci până la valoarea introdusă de utilizator și le afișează în ordine inversă.
 
+---
+
+### Mai jos ai solutia acestei probleme! ⬇
+
+   <details>
+     <summary>👀 Afiseaza solutia</summary>
+
 ```cpp
-#include <bits/stdc++.h>
+#include <iostream>
+
 using namespace std;
 
-int fib(int n)
-{
-    int f1 = 1, f2 = 1, f3 ;
-    while(f1 + f2 <= n)
-    {
-        f3 = f1 + f2;
-        f1 = f2;
-        f2 = f3;
+    int fib(int n) {
+        int f1 = 1, f2 = 1, f3;
+        while (f1 + f2 <= n) {
+            f3 = f1 + f2;
+            f1 = f2;
+            f2 = f3;
     }
     return f2;
-}
-int main()
-{
-    int n;
-    cin>>n;
-    while(n!=0)
-    {
-        cout<<fib(n)<<" ";
-        n=n-fib(n);
     }
+
+    int main() {
+        int n;
+        cin >> n;
+        while (n != 0) {
+            cout << fib(n) << " ";
+            n = n - fib(n);
+        }
     return 0;
-}
+    }
 ```
+
+   </details>
 
 ---
 
@@ -255,6 +269,11 @@ Acest cod citește perechi de numere `a` și `b` din fișierul "fibo0.in", repre
 
 Acest cod este simplu și eficient, citind perechile de numere și verificând condiția dată pentru fiecare pereche, numărând câte dintre ele satisfac cerința, și scriind rezultatul în fișierul de ieșire.
 
+### Mai jos ai solutia acestei probleme! ⬇
+
+   <details>
+     <summary>👀 Afiseaza solutia</summary>
+
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
@@ -271,8 +290,9 @@ int main()
     cout << cnt;
     return 0;
 }
-
 ```
+
+   </details>
 
 ---
 
