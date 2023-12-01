@@ -2,8 +2,8 @@
 title: '4. Divide et Impera'
 image: '/Introducere/Cap3/divide.jpg'
 alt: 'Recursivitate'
-created: 2023-12-02
-updated: 2023-12-02
+created: 2023-11-21
+updated: 2023-11-21
 tags:
   - 'Introducere'
   - 'Incepatori'

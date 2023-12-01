@@ -2,8 +2,8 @@
 title: '3.1 Fibonacci - Probleme Rezolvate'
 image: '/Introducere/Cap2/fibonacci.jpg'
 alt: 'Recursivitate'
-created: 2023-12-02
-updated: 2023-12-02
+created: 2023-11-22
+updated: 2023-11-22
 tags:
   - 'Introducere'
   - 'Incepatori'

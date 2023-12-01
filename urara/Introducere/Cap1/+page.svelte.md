@@ -2,8 +2,8 @@
 title: '2. Recursivitatea in informatica - Factorialul'
 image: '/Introducere/recursion-meme.jpg'
 alt: 'Recursivitate'
-created: 2023-12-03
-updated: 2023-12-03
+created: 2023-11-24
+updated: 2023-11-24
 tags:
   - 'Introducere'
   - 'Incepatori'
