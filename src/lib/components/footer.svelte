@@ -41,3 +41,13 @@
     </p>
   </div>
 </footer>
+
+<style>
+  :global(body) {
+    min-height: 100%;
+  }
+
+  :global(html) {
+    height: 100%;
+  }
+</style>

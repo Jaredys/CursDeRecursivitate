@@ -10,7 +10,6 @@
   import Transition from '$lib/components/transition.svelte'
   import 'uno.css'
   import '../app.pcss'
-
   export let data: LayoutData
 
   let { res, path } = data

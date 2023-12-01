@@ -10,6 +10,7 @@
   import Footer from '$lib/components/footer.svelte'
   import Post from '$lib/components/post_card.svelte'
   import Profile from '$lib/components/index_profile.svelte'
+  import AnimationFrameSnow from '$lib/components/snow.svelte'
 
   let allPosts: Urara.Post[]
   let allTags: string[]
@@ -37,6 +38,8 @@
     }
   })
 </script>
+
+<AnimationFrameSnow />
 
 <Head />
 
