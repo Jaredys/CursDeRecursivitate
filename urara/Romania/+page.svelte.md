@@ -23,3 +23,15 @@ tags: ['Website']
 Recunoașterea internațională a unirii Bucovinei s-a făcut la **10 septembrie 1919**, prin **Tratatul de la Saint Germain**.
 
 Unirii Transilvaniei, Banatului, Crișanei și Maramureșului cu România i s-a dat recunoaștere prin **Tratatul de pace de la Trianon**, semnat la **4 iunie 1920**, iar **Tratatul de la Paris** din **28 octombrie 1920** a urmărit recunoașterea unirii României cu Basarabia, deși nu a intrat în vigoare din cauza unei ratificări nerealizate de Japonia și a nerecunoașterii Uniunii Sovietice a acestei uniri.
+
+---
+
+<script>
+  import { YouTube, Spotify, SoundCloud } from 'sveltekit-embed'
+</script>
+
+<YouTube youTubeId="tdl7kYhbfCs" />
+
+---
+
+<SoundCloud soundcloudLink="https://soundcloud.com/user186212957/imnul-romaniei-romanian-anthem?in=cool-stool99/sets/mid" />

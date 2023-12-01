@@ -28,23 +28,7 @@
         onRegisterError: error => console.error(error)
       })
   )
-
-  let audio
-
-  onMount(() => {
-    startTimer()
-  })
-
-  function startTimer() {
-    setTimeout(() => {
-      if (audio) {
-        audio.play()
-      }
-    }, 500)
-  }
 </script>
-
-<audio src="https://upload.wikimedia.org/wikipedia/commons/7/77/Desteapta-te%2C_romane%21.ogg" bind:this={audio}></audio>
 
 <Head />
 
